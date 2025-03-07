@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()[
+
+int arr[10](1, 2, 3, 4, 5, 6, 7, 8, 9, 10); // Initialize a ID array of size 10 int sum 0; // Variable to store the sum of the elements int product 1: // Variable to store the product of the elements. int i;
+
+// Display the array elements. printf("The elements of the array are:\n"); for (i=0; i<10;i++) | printf("arr[%d]= %d\n", i, arr[i]);
+
+// Calculate the sum and product of the array elements for (i=0;i<10;i++) { sum += arr[i]; product arr[i];
+
+printf("\nSum of the array elements: %d\n", sum); printf("Product of the array elements: %d\n", product);
+
+return 0;
+}
