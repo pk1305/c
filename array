@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+
+int arr[5]; // Declare a ID array of size 5
+
+int sum=0; // Variable to store the sum
+
+int i;
+
+printf("Enter 5 integers:\n");
+
+// Prompt the user to enter 5
+
+integers
+
+for (i=0; i < 5; i++) { array
+
+// Loop to input values into the
+
+printf("Enter value for element %d: ", i + 1); scanf("%d", &arr[i]); // Add each element to the sum sum += arr[i];
+
+// Print the sum of the array elements printf("\nThe sum of the array elements is: %d\n", sum);
+
+return 0;
